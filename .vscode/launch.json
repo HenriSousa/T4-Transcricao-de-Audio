@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch app",
+            "request": "launch",
+            "mainClass": "com.NExT.Projeto.TranscricaoDeAudio.app",
+            "projectName": "TranscricaoDeAudio"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TranscricaoDeAudioApplication<TranscricaoDeAudio>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.NExT.Projeto.TranscricaoDeAudio.TranscricaoDeAudioApplication",
+            "projectName": "TranscricaoDeAudio",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

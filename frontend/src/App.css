@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+/* anterior 
+    #282c34
+    (0, 162, 255)
+    atual
+    #6703b9
+    (255, 250, 3) 
+    */
+.App-header {
+  background-color: #282c34;
+  border: solid 1px rgb(0, 162, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 0.5rem;
+  color: white;
+}
+
+.form-control1{
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.boxText {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.boxIdiomaTranslate {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: medium;
+}
+
+.boxUpload{
+  margin-bottom: 10px;
+  padding: 0.5rem;
+}
+.boxResponse{
+  background-color: white;
+  width: 100%;
+  min-height: 1.7rem;
+  border-radius: 0.3rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
+  padding: 0.1rem;
+  color: black;
+  font-size: medium;
+}
+.buttonTraduzir{
+  margin-top: 0.5rem;
+}
+.all {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
